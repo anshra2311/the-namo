@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the namo cafe and restaurant</title>
+    <link rel="shortcut icon" href="cafe image.png" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <img src="cafe image2.png" alt="namo cafe and restaurant">
+        <h1>the namo cafe and family restaurant</h1>
+        <h2>----welcome----</h2>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#online">Onilne Order</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="line">
+        <h1>Delicious Moments. Family Feelings.</h1>
+    </section>
+    <section id="about" class="card">
+             <h2>About Us: </h2>
+             <p>Namo Cafe & Family Restaurant is a warm and welcoming place 
+                where food meets tradition. We serve a range of vegetarian and
+                non-vegetarian delicacies in a friendly, family-oriented 
+                atmosphere. Whether you're looking for a quick coffee or a 
+                full-course dinner, we’ve got you covered.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu: </h2>
+        <table>
+         <caption>Starter</caption>
+            <tr>
+                <th>Dishes</th>
+                <th>Full</th>
+                <th>Half</th>
+            </tr>
+            <tr>
+            <td>Sev Tamatar</td>
+            <td>90</td>
+            <td>40</td>
+            </tr>
+            <tr>
+            <td>Sev masala</td>
+            <td>100</td>
+            <td>40</td>
+            </tr>
+            <tr>
+            <td>Bhindi Masala</td>
+            <td>80</td>
+            <td>40</td>
+            </tr>
+            <tr>
+            <td>Sahi Paneer</td>
+            <td>120</td>
+            <td>60</td>
+            </tr>
+            <tr>
+            <td>Dal Fry</td>
+            <td>70</td>
+            <td>30</td>
+            </tr>
+            <tr>
+            <td>Dahi Bhindi</td>
+            <td>110</td>
+            <td>55</td>
+            </tr>
+            <tr>
+            <td>Sukhi Bhaji</td>
+            <td>100</td>
+            <td>40</td>
+            </tr>
+            <tr>
+            <td>kopta </td>
+            <td>100</td>
+            <td>40</td>
+            </tr>
+        </table>
+        <table>
+         <caption>Fast Food</caption>
+             <tr>
+                <th>Dishes</th>
+                <th>Price</th>
+             </tr>
+             <tr>
+                <td>Sandwich</td>
+                <td>35</td>
+             </tr>
+             <tr>
+                <td>Paneer Sandwich</td>
+                <td>55</td>
+             </tr>
+             <tr>
+                <td>Cheese Sandwich</td>
+                <td>50</td>
+             </tr>
+             <tr>
+                <td>Veg Sandwich</td>
+                <td>45</td>
+             </tr>
+             <tr>
+                <td>Patis</td>
+                <td>25</td>
+             </tr>
+             <tr>
+                <td>Paneer Patis</td>
+                <td>35</td>
+             </tr>
+             <tr>
+                <td>Pizza</td>
+                <td>65</td>
+             </tr>
+             <tr>
+                <td>Paneer Pizza</td>
+                <td>80</td>
+             </tr>
+             <tr>
+                <td>Corn pizza</td>
+                <td>75</td>
+             </tr>
+             <tr>
+                <td>Veg Pizza</td>
+                <td>70</td>
+             </tr>
+             <tr>
+                <td>Vada Pao</td>
+                <td>55</td>
+             </tr>
+             <tr>
+                <td>Pao Bhaji</td>
+                <td>65</td>
+             </tr>
+             <tr>
+                <td>Burger</td>
+                <td>35</td>
+             </tr>
+             <tr>
+                <td>Burger Paneer</td>
+                <td>50</td>
+             </tr>
+             <tr>
+                <td>Cheese Burger</td>
+                <td>45</td>
+             </tr>
+             <tr>
+                <td>Veg Burger</td>
+                <td>35</td>
+             </tr>
+        </table>
+    </section>
+    <section id="online" class="card">
+        <form action="https://formspree.io/f/mvgrqpwe" method="post">
+           <h2>Online Order: </h2>
+           <p>Name: <input type="text" name="name" id="name" required placeholder="Enter your name"></p>
+           <p>mobile no: <input type="tel" pattern="[0-9]{10}" name="tel" id="tel" required placeholder="Mobile no"></p>
+           <h3>Select Your Order</h3>
+           <h4>Starter</h4>
+           <p>Sabjii: <select name="sabjii" id="sabjii">
+             <option value="" disabled hidden selected>Select an option</option>
+            <option value="sev tamatar"> sev tamatar</option>
+            <option value="sev masala"> Sev masala</option>
+            <option value="bhindi masala"> Bhindi Masala</option>
+            <option value=" Sahi Paneer"> Sahi Paneer</option>
+            <option value="Dal Fry"> Dal Fry</option>
+            <option value="Dahi Bhindi"> Dahi Bhindi</option>
+            <option value="Sukhi Bhaji"> Sukhi Bhaji</option>
+            <option value="kofta"> kopta</option>
+           </select></p>
+            <p>Quantity: 
+                    <select name="Quantity" >
+                    <option value="" disabled hidden selected>Select an option</option>
+                    <option>Half</option>
+                    <option>Full</option>
+                </select>
+            </p>
+           <h4>Fast Food</h4>
+            <p>Dishes: 
+                <select name="Dishes" aria-placeholder="Dishes">
+            <option value="" disabled hidden selected>Select an option</option>
+            <option value="vada pao"> vada pao</option>
+            <option value="pao bhaji"> Pao bhaji</option>
+            <option value="sandwich"> sandwich</option>
+            <option value="paneer Sandwich"> Paneer Sandwich</option>
+            <option value="cheese Sandwch"> Cheese Sandwch</option>
+            <option value="veg Sandwich"> Veg Sandwich</option>
+            <option value="burger"> Burger</option>
+             <option value="burger Paneer"> Burger Paneer</option>
+            <option value="cheese Burger"> Cheese Burger</option>
+            <option value="veg Burger"> Veg Burger</option>
+            <option value="Patis"> Patis</option>
+            <option value="Paneer Patis"> Paneer Patis</option>
+            <option value="pizza"> Pizza</option>
+            <option value="paneer Pizza"> Paneer Pizza</option>
+            <option value="corn pizza"> Corn pizza</option>
+            <option value="veg Pizza">Veg Pizza</option>
+                </select>
+            </p>
+             <p>no. of items: 
+                    <select name="no. of items">
+                         <option value="" disabled hidden selected>Select an option</option>
+                   <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                </select>
+            </p>
+            <p>Address: <textarea name="address" id="address" cols="30" rows="10" required></textarea></p>
+           <input type="submit" value="submit">
+           <input type="reset" value="reset">
+        </form>
+    </section>
+    <section id="contact" class="card">
+        <h2>Contact: </h2>
+        <p>Gmail: <a href="mailto: anshrajpoot0107@gmail.com" target="_blank">anshrajpoot0107@gmail.com</a></p>
+        <p>mobile no: <a href="tel:+917440353395" target="_blank">7440353395</a></p>
+        <p>instagram: <a href="https://www.instagram.com/the_namo_cafe_?igsh=MTNtbGFlZ3h1YzMybQ==" target="_blank">the_namo_cafe_and_restaurant</a></p>
+    </section>
+    <footer>
+        <p>&copy; Namo cafe and restaurant 2025 All rights reserved</p>
+    </footer>
+</body>
+</html>
