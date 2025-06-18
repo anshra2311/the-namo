@@ -1,0 +1,209 @@
+/*resetting default browse styling*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*body styling*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: aliceblue;
+    list-style: cross-fade();
+    line-height: 1.6;
+    color: #333;
+    box-shadow:0 2px 8px #000000;
+    border-radius: 10px;
+}
+/*Header section*/
+header{
+    background-color:antiquewhite ;
+    text-align: center;
+    border-color:2px solid chocolate;
+    padding: 10px;
+    
+}
+header img{
+    max-width: 50%;
+    height:5%;
+    border-radius: 10px;
+    box-shadow:0 2px 8px #000000;
+}
+header h1{
+    text-transform:uppercase;
+    color: rgb(92, 18, 18);
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+header h2{
+    text-transform: uppercase;
+    color:rgb(92, 18, 18) ;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+/*nav styling*/
+nav a{
+    background-color:#3c6d86;
+    color: aliceblue;
+    margin: 5px;
+    display:inline-block;
+    padding: 10px 15px;
+
+}
+nav :hover{
+    background-color: #a6a89a;
+}
+/*sections*/
+.line{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: #333 2px 2px 3px right;
+    font-size: larger;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    background-color: hsl(200, 38%, 38%);
+    padding: 20px 25px;
+    color: aliceblue;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+}
+#about h2{
+    text-align:justify;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;}
+#about p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    color: #000000;
+    background-color: beige;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgb(0,0,0);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 0 2px 8px black;
+}
+footer{
+     color: #000000;
+    background-color: beige;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgb(0,0,0);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 0 2px 8px black;
+    text-align: center;
+}
+/*table*/
+table{
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+th{
+    text-transform:uppercase;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #ffe0b2;
+}
+tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+/*forms*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+form p,form h2,form h3, form h4{
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="tel"],
+select,
+textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1em;
+}
+input[type="submit"],
+input[type="reset"]
+{
+    width: 100%;
+    color:black;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color: #3c6d86;
+}
+input[type="reset"]:hover{
+    background-color: #3c6d86;
+}
+input[type="text"]:hover{
+    background-color: #3c6d86;
+} 
+input[type="tel"]:hover{
+    background-color: #3c6d86;
+}
+textarea:hover{
+    background-color:#3c6d86;
+}
+select:hover{
+    background-color:#3c6d86;
+}
+/*contact*/
+#contact{
+     color: #000000;
+     text-decoration: none;
+     padding: 10px;
+}
+#contact:hover{
+    text-decoration: underline;
+}
+caption {
+    caption-side: top;
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: #ffe0b2;
+    border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header img {
+    max-width: 100%;
+  }
+
+  .card, footer {
+    padding: 10px;
+    margin: 10px;
+  }
+}
