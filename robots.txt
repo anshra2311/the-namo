@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anshra2311.github.io/the-namo/sitemap.xml
